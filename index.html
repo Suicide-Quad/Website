@@ -40,13 +40,15 @@
         <div class="content">
             <div class="contentBx w50">
                 <h3>Le projet</h3>
-                <p>
-                    Le robot : <br> Le robot devra pouvoir se déplacer sur un terrain plan. Le labyrinthe étant représenté par une feuille, on pourra considérer qu'il n'y aura pas de pente ou d´obstacle sur son chemin. Ce robot devra aussi pouvoir "voir"
-                    la feuille et son environnement. Afin de reconnaître, les murs (traits noirs) et les points de départ et d'arrivée. Une autre de ses compétences sera de pouvoir échanger avec le monde extérieur, pour envoyer les données récoltés sur
-                    le serveur. <br> Le serveur : Il devra être capable de gérer la récolte de données via le robot et de reconnaître que le robot a fini son travail. Une fois, le travail du robot fini, il devra reconstituer de manière visuelle le labyrinthe
-                    et rendre compte a l'utilisateur du chemin le plus court entre les deux points.<br> Le labyrinthe : <br> Il sera symbolisé par une feuille blanche sur laquel, on aura préalablement dessiné des murs (traits noirs). <br> Les points :
-                    <br> Les points départ seront symbolisés par des ronds de couleur dans le labyrinthe. Le robot devra donc interpréter les formes. Il devra pouvoir faire la différence entre une ligne (un mur) et un rond (un point). Une fois cette distinction
-                    faite, il faudra aussi gérer les différentes couleurs entre le point de départ et d'arrivée. <br>
+                <p> 
+                    Notre projet vise à combiner les aspects de la robotique matérielle et de l'informatique en mettant en œuvre des techniques de robotique mobile et de SLAM pour créer un robot capable de se positionner dans un environnement connu, ici un labyrinthe. <br>
+                    Cela se fait à l'aide d'ArUco positionné sur tout le labyrinthe, un ArUco est un QR code simplifier permettant d'avoir un identifiant unique pour chacun des ArUco. Ils permettent ainsi de savoir où le robot se situe pour qu'il puisse y naviguer. <br>
+                    Il s'agit d'un projet à la fois technique et pratique qui vise à développer les compétences en matière de robotique matérielle, d'électronique et de programmation en C.<br>
+                    <br>
+                    <br>
+                    En plus de la réalisation d'un robot capable de se déplacer dans un labyrinthe, nous avons également mis en place un système de communication pour envoyer les données récoltées par le robot à un serveur distant. <br>
+                    Ce serveur sera utilisé pour faire des calculs complexes que ne permet pas notre robot et d'obtenir les résultats de ces calculs. <br>
+                    Cet aspect du projet est particulièrement intéressant car il nous permettra de mettre en pratique les concepts de réseau en C, en utilisant des techniques de communication client-serveur et de lecture de paquets.<br>
                 </p>
             </div>
         </div>
@@ -72,6 +74,14 @@
             <div class="workbx">
                 <img src="sources/imgs/PID.png" alt="icon1">
                 <h2>Le PID</h2>
+            </div>
+            <div class="workbx">
+                <img src="sources/imgs/Robot-réel.jpg" alt="icon1">
+                <h2>Le robot en vue réelle</h2>
+            </div>
+            <div class="workbx">
+                <img src="sources/imgs/Carte-mere.jpg" alt="icon1">
+                <h2>Carte mère du robot</h2>
             </div>
         </div>
     </section>
